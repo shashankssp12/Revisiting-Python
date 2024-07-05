@@ -114,16 +114,6 @@
 # print(speed["d"])
 # speed["k"]=23#it gets added in the dictionary
 # print(speed)
-  
-# # FUNCTIONS:A block of code which is executed only when it is called 
-# #In-built functions,module functions,User-defined functions
-# def addno(first, second=1):#if nothing gets passed in second than automatically one will be used
-#     print(first + second)
 
-# addno(3,4) #Calling function
-# # 🌟The values a function is going to take as input are called Parameters
-# # 🌟The values we put in a called function are Arguement 
-# # def hello(name, age):<-- These are Parameters.
-# # hello("shashank", 21)<-- These are arguments. The once we send to the function
 
 

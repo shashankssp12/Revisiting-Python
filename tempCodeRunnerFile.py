@@ -1,5 +1,6 @@
-phone_number= "123-456-7890"
-# for i in phone_number:
-#     if i == "-":
-#         continue
-#     print(i,end="")
+def func1(first,last):
+    print(first+" "+last)
+    
+    str1="shashank"
+    str2="pandey"
+    func1(first=str2,last=str1)# output--> pandey shashank
