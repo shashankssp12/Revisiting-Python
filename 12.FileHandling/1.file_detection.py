@@ -3,7 +3,7 @@
 '''
 import os
 path1 = "D:\\Revisiting Python\\12.FileHandling"
-# path="C:\\Users\\shash\\Desktop\\test.txt" # use \\ instead of \ in string as this is an escape sequence for the string to understand that this is not just a charater in a string
+# path="C:\\Users\\shash\\Desktop\\test.txt" # use \\ instead of \ as it is an escape sequence to bring backslash in strings
 
 if os.path.exists(path1):
     print("The location exists")
@@ -12,4 +12,4 @@ if os.path.exists(path1):
     elif os.path.isfile(path1):
         print("It's a file")
 else:
-    print("Location doesn't exist")
+    print("Location doesn't exist")  
