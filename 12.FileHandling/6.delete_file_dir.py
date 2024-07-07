@@ -13,5 +13,5 @@ import shutil
 # path='delete_folder'
 # os.rmdir(path)# works
 
-# path='folder'
+# path='folder1'
 # shutil.rmtree(path)# works
