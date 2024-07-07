@@ -4,14 +4,6 @@
 # Author:      Shashank S Pandey
 # Copyright:   (c) Shashank S Pandey 2024
 # -------------------------------------------------------------------------------
-# print("Hello World")
-# name="Shashank"
-# middle_name=input("Enter your middle name")
-# is_cool=True
-# print("Python Master " +name+" "+middle_name)
-# print(is_cool)
-
-
 
 # RANGE keyword 
 # num=range(1,5)#it does not include 5(last digit) thus-->0,1,2,3,4
