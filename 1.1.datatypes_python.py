@@ -1,3 +1,28 @@
+'''
+int -->10 -10
+float--> 10.45
+complex --> 10+10i
+strings--> "Hello" or 'Hello'
+lists--> [1,'hello', 4.5, "A"] #mutable list[1]-->hello
+tuples--> (1,'hello', 4.5, "A") #immutable tuple[1]-->hello
+dictionary -->{'a':22, 'b':44.4} # usage dict['a']-->22
+boolean (bool class) isSorted = True 
+set --> {1,'Hello','Hello',1,"A"} ---> on printing no repeated values are shown, a set is non indexed.
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # # TUPLES()-->Like list[] but Immutable(cannot update, modify and delete values)
 # marks=(12,21,11,22,11)
