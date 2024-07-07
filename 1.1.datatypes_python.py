@@ -11,14 +11,24 @@ set --> {1,'Hello','Hello',1,"A"} ---> on printing no repeated values are shown,
 '''
 
 
+# Strings:
+# my_variable = "This is \
+# too big to fit \
+# on a single line"
+# print(my_variable)
+
+##multi-line string
+# my_variable = """This is 
+# too big to fit 
+# on a single line"""
+# print(my_variable)
 
 
-
-
-
-
-
-
+name = "Shashank"
+print(name[3])
+print(len(name))
+new_name = name + " Shekhar"
+print(new_name)
 
 
 
