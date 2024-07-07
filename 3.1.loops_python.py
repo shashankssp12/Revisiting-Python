@@ -5,6 +5,34 @@
 # Copyright:   (c) Shashank S Pandey 2024
 # -------------------------------------------------------------------------------
 
+
+# # FOR LOOP
+# for i in range(5):
+#     print(i)
+
+# # DATA 
+data=[10,20,30,'hi'] #---> List[]
+# i=0 
+# while i< len(data):
+#     print(data[i])
+#     i+=1
+# print("Out of loop")
+
+# for i in data:
+#     print(i)
+# Output is same for both:
+# 10
+# 20
+# 30
+# hi
+'''
+By default for loop doesn't have access for indexes to items in the list.
+can use enumrate
+'''
+for idx, item in enumerate(data):
+    print(idx,item)
+
+
 # RANGE keyword 
 # num=range(1,5)#it does not include 5(last digit) thus-->0,1,2,3,4
 # print(type(num))
@@ -34,25 +62,6 @@
 #     print(i * "*") #multiplying the string i times
 #     i-=1
 
-# # FOR LOOP
-# for i in range(5):
-#     print(i)
-
-# # DATA 
-# data=[10,20,30,'hi'] #---> List[]
-# i=0 
-# while i< len(data):
-#     print(data[i])
-#     i+=1
-# print("Out of loop")
-
-# for i in data:
-#     print(i)
-# Output is same for both:
-# 10
-# 20
-# 30
-# hi
 
 
 
