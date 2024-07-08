@@ -1,9 +1,9 @@
 # TODO:
 '''
-# radom pick by computer
+# random pick by computer
 # player input
-# compare result -Tell who who
-# ask if wants to play again
+# compare result -Tell who won
+# ask if the player wants play again
 '''
 import random
 
