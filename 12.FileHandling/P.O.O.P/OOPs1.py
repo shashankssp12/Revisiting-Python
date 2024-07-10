@@ -4,17 +4,21 @@ On big scale project , you obviously import classes and their properties, attrib
 '''
 
 class Car:
-    # Constructor function
-    def __init__(self):
-        color = None
-        model = None
-        manufacturer = None
+    # class variable
+    wheels = 4 #-------- This is a class variable , global variable, with it's default value 4 
+    # now all objects , will have wheels attribute/property with 4 value , YES the value can definitely be updated.
+    
+    # Constructor --Speacial method
+    def __init__(self,color,model,year):
+        self.color = color #instance variable
+        self.model = model #instance variable
+        self.year = year #instance variable
         
     def drive(self):
-        print("This car is driving")
+        print("This {} is driving".format(self.model))
 
     def stop(self):
-        print("The car has stopped")
+        print("This {} has stopped".format(self.model))
 
 # # What is "self" keyword ? 
 '''
