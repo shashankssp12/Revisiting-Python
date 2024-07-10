@@ -12,6 +12,7 @@ set --> {1,'Hello','Hello',1,"A"} ---> on printing no repeated values are shown,
 
 
 # Strings:
+# # Prints in a single line though
 # my_variable = "This is \
 # too big to fit \
 # on a single line"
@@ -48,10 +49,23 @@ print(new_name)
 # marks={21,11,12,22,22,11}
 # print(marks)#-->{11, 12, 21, 22} in ascending order
 # for i in marks:
-#     print(i)#again repeated values won't come
+#     print(i)#again, repeated values won't come
 
 # # DICTIONARY{KEY:VALUE,KEY1:VALUE1}---> Key-Value Pair
 # speed={"d":60,"k":48,"h":33} 
 # print(speed["d"])
 # speed["k"]=23#it gets added in the dictionary
 # print(speed)
+
+# Use:
+questions = {
+    "What is the largest mammal in the world?": "A",
+    "How many continents are there on Earth?": "A",
+    "What planet is known as the Red Planet?": "A",
+    "What is the tallest mountain in the world?": "A"
+    }
+for key in questions:
+    print(questions[key])
+    print(questions.get(key),end=" ")
+    
+    # WAYS TO Access
