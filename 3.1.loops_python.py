@@ -72,7 +72,7 @@ for idx, item in enumerate(data):
 #     i-=1
 # print("out of loop")
 # print(data)
-# data.clear()#clears my list
+# data.clear()#clears my list , thus empty list
 # print(type(data))
 
 

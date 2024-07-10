@@ -20,7 +20,7 @@ animal2="fox"
 
 # print(text.format(animal1,animal2))
 
-## Way2 --> By using keyword arguments in a btter way
+## Way2 --> By using keyword arguments in a better way
 
 # text="The {a} jumps over the {b}"
 # print(text.format(a="Elephant",b="Rhino"))
@@ -33,10 +33,10 @@ animal2="fox"
 '''
 a="Elephant"
 # text="The {:55} jumps!"
-print("The {:20}jumps!".format(a))
-print("The {:<20}jumps!".format(a))
+print("The {:20}jumps!".format(a)) #20 spaces after Elephant
+print("The {:<20}jumps!".format(a)) # same result
 print("The {:>20}jumps!".format(a))
-print("The {:^20}jumps!".format(a))
+print("The {:^20}jumps!".format(a)) # placed in center
 
 # -----------With Numbers-------------
 

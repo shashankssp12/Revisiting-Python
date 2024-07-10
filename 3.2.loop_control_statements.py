@@ -1,6 +1,8 @@
 '''
 break--> once executed, it exits the loop.
+
 continue-->skip the current iteration of the loop.
+
 pass--> it does nothing , acts as a placeholder( a person or thing that occupies the position or place of another person or thing)
 use case: You can declare a function and do nothing with it then use pass to avoid errors.
 
@@ -20,8 +22,8 @@ def future_function():
 #         continue
 #     print(i,end="")
 
-# for j in range(0,21):
-#     if j==15:
+# for j in range(0,10):
+#     if j==5:
 #         pass #without if also it is waste , cause it just does nothing 
 #     else:   
 #      print(j)

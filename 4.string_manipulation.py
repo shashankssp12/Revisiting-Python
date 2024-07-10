@@ -2,7 +2,7 @@
 '''
 Steps:
 -Object Creation
--ex: s = slice(2,5)<--slice is the object of slice.
+-ex: slice_object = slice(2,5)<--slice is the object of slice.
 -use:
 
 '''
@@ -14,9 +14,16 @@ Steps:
 
 
 ## INDEXING
-# name="Bro Code"
-# [inclusive:exclusive:step]
-# print(name[:3]+ name[4:])
-# print(name[::2])
-# # Reversed name:
-# print(name[::-1])
+name="Bro Code"
+# # [inclusive:exclusive:step]
+print(name[:3]+ name[4:])
+print(name[::2])
+# Reversed name:
+print(name[::-1])
+
+# output:
+'''
+BroCode
+BoCd
+edoC orB
+'''
