@@ -11,7 +11,7 @@ import myModule as mm # alias can be made for modules with longer names and more
 mm.hello()
 mm.bye()
 '''
-# There something cool I found, how to import module with not to conventional names , like--->12.1.myModule.py 🌟‼️ 
+# There something cool I found, how to import module with not so conventional names , like--->12.1.myModule.py 🌟‼️ 
 # We use : importlib module.
 
 
