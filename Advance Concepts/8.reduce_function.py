@@ -5,7 +5,21 @@ reduce(function,iterable)
 must import functools
 
 '''
-import functools
+from functools import reduce
 
 # The  usual way of adding all elements in a list: 
+# list = ['H','E','L','L','O']
+# word=""
+# for i in list:
+#     word = word+i
+# print(word)
+
+# The advance way - reduce way of doing it.
 list1=['H','E','L','L','O']
+
+print(word := reduce(lambda x,y:x+y,list1))
+
+# # EXMAPLE 2:
+
+factorial = (5,4,3,2,1)
+print(value := reduce(lambda x,y : x*y ,factorial))
