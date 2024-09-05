@@ -103,3 +103,26 @@ my_dict = {'a': 1, 'b': 2, 'c': 3}
 
 for key in my_dict:
     print(key, my_dict[key])
+    
+    
+    
+
+# How many data types in python?
+'''
+ there are 14 data types in python:
+    1. int
+    2. float
+    3. complex
+    4. string
+    5. list
+    6. tuple
+    7. range
+    8. dictionary
+    9. set
+    10. frozenset
+    11. bool
+    12. bytes
+    13. bytearray   
+    14. None
+
+'''
