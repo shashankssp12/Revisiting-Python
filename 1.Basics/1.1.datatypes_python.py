@@ -71,7 +71,7 @@ questions = {
  # There are several ways to iterate through a dictionary in Python. Here are the main methods:
 
 # Iterate through keys:
-
+'''
 my_dict = {'a': 1, 'b': 2, 'c': 3}
 
 for key in my_dict:
@@ -104,7 +104,7 @@ my_dict = {'a': 1, 'b': 2, 'c': 3}
 for key in my_dict:
     print(key, my_dict[key])
     
-    
+    '''
     
 
 # How many data types in python?
@@ -126,3 +126,19 @@ for key in my_dict:
     14. None
 
 '''
+
+# List with all functions:
+# Functions:
+'''
+list.insert(len(list),"item")
+list.append(6)
+list.extend([1,2,3,4]) #this will append this whole thing(list in this case) into the existing list
+list.pop(3)
+del list[3]
+'''
+list1 = [1,'hello', 4.5, "A",[1,2,3,4]]
+
+print(*list1)
+# print(list1, sep=',')
+del list1[1]
+print(*list1)
